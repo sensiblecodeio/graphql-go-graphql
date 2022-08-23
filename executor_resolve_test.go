@@ -2,10 +2,11 @@ package graphql_test
 
 import (
 	"encoding/json"
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/testutil"
 	"reflect"
 	"testing"
+
+	"github.com/sensiblecodeio/graphql-go-graphql"
+	"github.com/sensiblecodeio/graphql-go-graphql/testutil"
 )
 
 func testSchema(t *testing.T, testField *graphql.Field) graphql.Schema {
